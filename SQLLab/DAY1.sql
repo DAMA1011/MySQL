@@ -129,7 +129,7 @@ insert into my_food(food_name, food_location, food_price)
 values
 ('自帶便當', '家裡', 0),
 ('sukiya', '復興南路二段', 109),
-('', '', );
+('霜 越南河粉', '信義路三段', 120);
 select * from my_food;
 
 create table employee(
