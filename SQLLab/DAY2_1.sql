@@ -323,6 +323,6 @@ having count(*) > 2;
 
 select user_id, count(*)
 from comments
-where user_id <= 50
+where photo_id <= 50
 group by user_id
 having count(*) > 20;
