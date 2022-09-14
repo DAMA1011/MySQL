@@ -818,6 +818,7 @@ select * from products where department = 'toys' or department = 'movies'; -- �
 
 select * from products where department not in ('toys', 'movies'); -- 不包含這兩個的資料
 select * from products where department != 'toys' and department != 'movies'; -- 要用 and
+select * from products where not department = 'toys' and not department = 'movies';
 
 -- case
 select id, p_name, price, 
